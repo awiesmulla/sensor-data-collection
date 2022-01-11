@@ -21,5 +21,12 @@ python3 IMU_collect.py <name of the test run>
 ### GPS data
 
 gps_collect.py stores the x and y cartesian coordinates w.r.t. start pose //
+Change the Serial port for GPS according to requirement before running the script
 Run the following to collect GPS data
+
+'''
+python3 IMU_collect.py <name of the test run>
+'''
+
+### Extras
 
