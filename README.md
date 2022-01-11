@@ -10,12 +10,16 @@ Run the following command to install required python libraries
 pip3 install -r requirements.txt
 '''
 
-IMU_collect.py stores accelerometer values (along x and y axes) and gyrometer values (along z axis)
+### IMU data
+
+IMU_collect.py stores accelerometer values (along x and y axes) and gyrometer values (along z axis) //
 To collect the IMU data run the following command
 
 '''
 python3 IMU_collect.py <name of the test run>
 '''
-  
-gps_collect.py stores the x and y cartesian coordinates w.r.t. start pose
+### GPS data
+
+gps_collect.py stores the x and y cartesian coordinates w.r.t. start pose //
 Run the following to collect GPS data
+
