@@ -6,7 +6,7 @@ Scripts to collect and plot raw IMU (Witmotion IMU) and GPS data in csv format
 
 Run the following command to install required python libraries
 
-'''bash
+'''
 pip3 install -r requirements.txt
 '''
 
