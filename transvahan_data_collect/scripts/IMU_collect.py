@@ -47,8 +47,8 @@ def main():
 
 		df_acc = pd.DataFrame(acc_data)
 		df_yaw = pd.DataFrame(yaw_rate)
-		df_acc.to_csv('./Data/' + str(date.today()) + '_' + sys.argv[1] + '_acc.csv')
-		df_yaw.to_csv('./Data/' + str(date.today()) + '_' + sys.argv[1] + '_yaw.csv')
+		df_acc.to_csv('./../Data/' + str(date.today()) + '_' + sys.argv[1] + '_acc.csv')
+		df_yaw.to_csv('./../Data/' + str(date.today()) + '_' + sys.argv[1] + '_yaw.csv')
 
 		acc_data = np.array(acc_data)
 		yaw_rate = np.array(yaw_rate)
