@@ -14,7 +14,7 @@ Run the following command to install required python libraries
 IMU_collect.py stores accelerometer values (along x and y axes) and gyrometer values (along z axis)  
 To collect the IMU data run the following command
 
-    python3 IMU_collect.py <name of the test run>
+    python3 gps_collect.py <name of the test run>
 
 ### GPS data
 
@@ -26,3 +26,10 @@ Run the following to collect GPS data
 
 ### Extras
 
+plot.py plot the data recorded in csv format  
+Use following command to plot the desired datasets
+
+    python3 plot.py <path of stored datafile> <column index (corresponding to axes) of data to plot> <argument_3>
+argument_3 -> possible values = {1,0}  
+argument_3 is 1 -> plot the GPS trajectory
+argument_3 is 0 -> plot the IMU sensor values
