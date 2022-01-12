@@ -37,8 +37,6 @@ def main():
 		plt.show()
 	else:
 		plt.figure(figsize=(15,15))
-		#plt.xlim(-1,10)
-		#plt.ylim(-1,10)
 		plt.plot(data[:],data_y[:],'.')
 		plt.show()
 
