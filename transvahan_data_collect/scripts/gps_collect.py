@@ -101,7 +101,7 @@ def main():
     except KeyboardInterrupt:
 
         df_path = pd.DataFrame(path)
-        df_path.to_csv('./Data/' + str(date.today()) + '_' + sys.argv[1] + '_gps.csv')
+        df_path.to_csv('./../Data/' + str(date.today()) + '_' + sys.argv[1] + '_gps.csv')
 
         path = np.array(path)
 
