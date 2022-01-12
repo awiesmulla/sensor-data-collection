@@ -7,7 +7,9 @@ Scripts to collect and plot raw IMU (Witmotion IMU) and GPS data in csv format
 Run the following command to install required python libraries
 
     pip3 install -r requirements.txt
-
+Run the following before recording any data
+    
+    mkdir -p transvahan_data_collect/Data
 
 ### IMU data
 
